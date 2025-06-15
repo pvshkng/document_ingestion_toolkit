@@ -16,8 +16,9 @@
 
 ## Running the project
 1. Install prereqisites
-2. Run ```uv venv``` to create the virtual environment
-3. Run ```uv sync``` to install dependencies
-4. Run ```cp .env.example .env``` and follow the instruction inside to get the required variables
-5. Open **notebook.ipynb** and change kernel to venv
-6. Run each cell to ingest documents
+2. Run ```uv venv``` to create a virtual environment
+3. Run ```./.venv/Scripts/activate``` (Windows) or ```source ./.venv/bin/activate``` (MacOS) to activate the virtual environment
+4. Run ```uv sync``` to install dependencies
+5. Run ```cp .env.example .env``` and follow the instruction inside to get the required variables
+6. Open **notebook.ipynb** and change kernel to venv
+7. Run each cell to ingest documents
