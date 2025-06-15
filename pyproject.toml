@@ -1,0 +1,15 @@
+[project]
+name = "document-ingestion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.20.0",
+    "ipykernel",
+    "langchain-text-splitters>=0.3.8",
+    "markitdown[all]>=0.1.2",
+    "pinecone>=7.0.2",
+    "pymilvus[model]>=2.5.11",
+    "python-dotenv>=1.1.0",
+]
